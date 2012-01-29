@@ -1,0 +1,31 @@
+<html>
+<head>
+<script type="text/javascript" src="http://cybercode.dyndns.org/CjsObj.js"></script>
+<script type="application/javascript;version=1.7"/> 
+</head>
+<body>
+//var a = getFunct(t, "asInt", "12b");
+//type.prototype.types = {String: 8};
+//t.prototypeVars.typeS = "test1";
+//t.prototypeFunctions.asInt(x);
+
+var ty = {String: 8};
+//info(type().getTypes(), 5);
+
+
+var t = new type();
+void(type.prototype.types = ty);
+//type.prototype.getTypes1 = function(){ return getKeys(type.prototype.types);}
+type.prototype.getTypes1 = function(){ return getKeys(this.types); }
+
+
+info(t.testOverRide, 0);
+//info(t.getTypes1(), 1);
+type.prototype.testOverRide = "OverRiden";
+info(t.testOverRide, 0);
+//t.prototypeVars.types = ty;
+//t.getTypes(true, true);
+//t.getTypes(true, false);
+//info(t.getTypes1(), 9);
+</body>
+</html>
