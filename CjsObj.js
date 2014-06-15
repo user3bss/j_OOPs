@@ -1,3 +1,4 @@
+
 /*
 http://sirdarckcat.blogspot.com/2007/07/passing-reference-to-javascript.html
 Modify private Var
